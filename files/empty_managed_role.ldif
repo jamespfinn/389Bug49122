@@ -1,0 +1,8 @@
+dn: cn=This_Is_An_Empty_Managed_NsRoleDefinition,o=Intra,dc=mycorp,dc=com
+description: Nobody is a member of this empty managed role
+objectClass: top
+objectClass: ldapsubentry
+objectClass: nsroledefinition
+objectClass: nssimpleroledefinition
+objectClass: nsmanagedroledefinition
+cn:  This_Is_An_Empty_Managed_NsRoleDefinition

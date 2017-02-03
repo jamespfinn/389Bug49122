@@ -1,0 +1,9 @@
+dn: cn=Filtered_Role_That_Includes_Empty_Role,o=Intra,dc=mycorp,dc=com
+nsRoleFilter: (!(nsrole=cn=This_Is_An_Empty_Managed_NsRoleDefinition,o=Intra,dc=mycorp,dc=com))
+description: A filtered role with filter that will crash the server 
+objectClass: top
+objectClass: ldapsubentry
+objectClass: nsroledefinition
+objectClass: nscomplexroledefinition
+objectClass: nsfilteredroledefinition
+cn: Filtered_Role_That_Includes_Empty_Role
