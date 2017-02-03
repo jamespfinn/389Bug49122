@@ -6,7 +6,7 @@ This is a demo of [Bug 49122](https://fedorahosted.org/389/ticket/49122)
 * Build the container:
 ```
 docker build -t jfinn:389Bug49122 .
-``
+```
 
 # Run The container with the demo.sh script:
 ```
