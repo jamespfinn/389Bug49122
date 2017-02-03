@@ -15,7 +15,7 @@ docker run --rm -i --name 389debug -t jfinn:389Bug49122 /tmp/demo.sh
 
 # OR run the container and manually reproduce the problem:
 ```
-[root@98efc6936cc6 ~]# /usr/sbin/ns-slapd -D /etc/dirsrv/slapd-myserver/ && sleep 10 # Start the server and give it some time to load
+[root@98efc6936cc6 ~]# /usr/sbin/ns-slapd -D /etc/dirsrv/slapd-myserver/ && sleep 30 # Start the server and give it some time to load
 ```
 
 ```
